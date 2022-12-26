@@ -82,7 +82,25 @@ svg {
     position: absolute;
     width: 53px;
     height: 4px;
-    top: 76px;
+    top: 46px;
+    border-radius: 2px;
+}
+
+.nav-portfolio,
+.nav-contact {
+    position: relative;
+}
+
+.nav-is-active:hover::after,
+.nav-is-active:focus::after {
+    background-color: var(--primary-color);
+    content: '';
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    top: 46px;
     border-radius: 2px;
 }
 
@@ -112,6 +130,7 @@ svg {
     display: flex;
     list-style: none;
     gap: 46px;
+    position: relative;
 }
 
 .contact-list {
