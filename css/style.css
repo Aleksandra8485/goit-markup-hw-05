@@ -73,6 +73,16 @@ svg {
     color: var(--primary-color);
 }
 
+.menu-link {
+    color: var(--dark-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-align: left;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .menu-link-active {
     color: var(--primary-color);
 }
@@ -139,16 +149,6 @@ svg {
 .contact-list a {
     color: var(--light-grey);
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-link {
-    color: var(--dark-grey);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    text-align: left;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -407,6 +407,10 @@ svg {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+}
+
+.photo-portfolio-shadow,
+.photo-portfolio-shadow {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -481,6 +485,10 @@ svg {
 .contact a:hover,
 .contact a:focus {
     color: var(--primary-color);
+}
+
+.contact a,
+.contact a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
