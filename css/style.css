@@ -500,16 +500,6 @@ svg {
     padding: 60px 0;
 }
 
-.contact a:hover,
-.contact a:focus {
-    color: var(--primary-color);
-}
-
-.contact a,
-.contact a {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .address-list {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
@@ -587,7 +577,6 @@ svg {
 .footer-icons:focus {
     fill: var(--white-color);
     background-color: var(--primary-color);
-    border-radius: 50%;
 }
 
 .join-social-media h3 {
