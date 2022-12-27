@@ -73,7 +73,11 @@ svg {
     color: var(--primary-color);
 }
 
-.is-active::after {
+.is-active {
+    color: var(--primary-color);
+}
+
+.menu-link-active::after {
     background-color: var(--primary-color);
     content: '';
     display: flex;
@@ -85,8 +89,8 @@ svg {
     border-radius: 2px;
 }
 
-.nav-is-active:hover::after,
-.nav-is-active:focus::after {
+.menu-link:hover::after,
+.menu-link:focus::after {
     background-color: var(--primary-color);
     content: '';
     display: flex;
