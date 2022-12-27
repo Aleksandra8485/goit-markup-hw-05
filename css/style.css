@@ -615,7 +615,9 @@ svg {
     border-radius: 50%;
     background-color: var(--white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .is-hidden {
